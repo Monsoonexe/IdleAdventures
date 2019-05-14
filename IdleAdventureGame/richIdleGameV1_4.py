@@ -81,7 +81,7 @@ def setDestination():
     elif(destinationRoll < 65):
         print("The party decides that the harassment of Kimona Village by the")
         print("Gadiantan Raiders has gone on long enough!")
-        print("They devise a daring strategy to cut of the snake's head")
+        print("They devise a daring strategy to cut off the snake's head")
         print("They plan to target the leader of the nefarious Gadiantan Raiders")
         print("Spies inform of a route he is taking.  Cut him off at the pass!")
         distance = random.randint(2000, 4000)
@@ -100,7 +100,7 @@ def main():
     goalDistance = setDestination()
     goalDistanceRemaining = goalDistance
     print("Distance to next Dungeon:", int(goalDistanceRemaining))
-    print("Our heroes wave goodbye to their hometown, and set off on their first adventure!")
+    print("Our heroes wave goodbye to their hometown and set off on their first adventure!")
     #print()#line break
     KMSinceLastTown = 0
     while (PARTY.isAlive() and goalDistanceRemaining > 0):
